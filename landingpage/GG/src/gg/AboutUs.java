@@ -82,7 +82,7 @@ public class AboutUs extends javax.swing.JFrame {
         jLabel4.setText("is a system created dedicated to ");
         getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 80, -1, 20));
 
-        jLabel5.setIcon(new javax.swing.ImageIcon("C:\\Users\\Student.admin\\Downloads\\about.jpg")); // NOI18N
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/about.jpg"))); // NOI18N
         getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
         pack();
